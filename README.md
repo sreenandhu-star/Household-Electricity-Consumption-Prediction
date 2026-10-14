@@ -72,3 +72,21 @@ Install the required Python libraries using:
 
 ```bash
 pip install -r requirements.txt
+
+## Model Evaluation
+
+The LSTM model was evaluated using the following metrics:
+
+| Evaluation Metric | Result |
+|---|---:|
+| Mean Absolute Error (MAE) | 0.4437 kW |
+| Root Mean Squared Error (RMSE) | 0.6639 kW |
+| R² Score | 0.7674 |
+
+### Results
+
+- MAE measures the average absolute difference between actual and predicted electricity consumption.
+- RMSE measures prediction errors and gives greater weight to larger errors.
+- R² Score indicates how well the model explains variations in electricity consumption.
+
+The model achieved an R² score of 0.7674 on the evaluated test data.
